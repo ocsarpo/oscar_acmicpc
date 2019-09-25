@@ -7,7 +7,7 @@ input.times do
 	nodes << gets.chomp().split(" ")
 end
 
-def visit(cache, arr, r, c, sum, depth_end=false)
+def visit(cache, arr, r, c, sum)
     r = r.to_i
     c = c.to_i    
     return if arr[r].nil?    
